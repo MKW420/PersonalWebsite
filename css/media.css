@@ -6,16 +6,39 @@
     .logo{
         font-size: 24px;
     }
-
-
+  .main-Two p{
+     display: none;
+  }
+  .skills-con{
+      margin-left: 200px;
+      width:60%;
+  }
 
 }
 @media (max-width: 767px){
+    body{
+        width:100%;
+    }
     header{
         padding:20px 0;
+      
 
     }
+    nav{
+        margin-top: -30px;
 
+    }
+    header.is-black{
+        color:white;
+        background: black;;
+    }
+    .logo{
+        display:none;
+    }
+    .moon{
+        margin-top: -600px;
+        margin-left:100px;
+    }
     .header-menu{
         position: fixed;
         top:69px;
@@ -26,12 +49,28 @@
         display: flex;
         justify-content: center;
         align-items: center;
+     
         transition: .3s;
     }
     .header-menu ul{
         flex-direction:column;
+        margin-left:100px;
     }
-    .menu-btn{
+    .main-Two{
         display: block;
     }
+    .main-One{
+        width:100%;
+        
+    }
+    .main-Two p{
+       display: none;
+    }
+    .main-Two button{
+        display: none;
+    }
+    .main-One h1{
+        font-size:50px; 
+    }
+ 
 }

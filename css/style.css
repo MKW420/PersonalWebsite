@@ -153,8 +153,196 @@ header{
 /* Night mode */ 
 
 body.is-black{
-    background: var(--color-jumbo);
+    background: black;
+    color:white;
 }
 .header-menu, .is-active{
     left:0;
 }
+.main-intro{
+    height:600px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-One{
+    display: flex;
+   
+       width:50%;
+    flex-direction: row;
+    /* border:3px solid black; */
+    height:600px;
+}
+.main-One h1{
+    font-size: 100px;
+    margin-left:100px;
+    margin-top: 50px;
+    transition: .3s;
+}
+.main-One h1::after{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    width:0;
+    height:4px;
+    background:black;
+    border-radius: 2px;
+    transition: .3s ;
+}
+.main-One h1 >span{
+    margin-left:250px;
+}
+
+.main-Two{
+    display: flex;
+   flex-direction: row;
+  
+    width:50%;
+    /* border:3px solid black; */
+    height:600px;
+}
+.main-Two p{
+    align-items: center;
+   
+    margin:150px;
+}
+.main-Two button{
+    border:none;
+    width: 50%;
+    height:50px;
+    margin-top: 400px;
+    display: flex;
+    margin-right:150px;
+  justify-content: flex-start;
+    
+}
+.main-Two button:hover{
+
+}
+.main-Two button.is-black{
+    background-color: var(--color-jumbo);
+}
+.skills-sec{
+    display: flex;
+     /* border:3px solid red; */
+    flex-direction: row;
+     width:100%;
+     height:1000px;
+}
+.skills-con{
+    width:35%;
+    height:590px;
+    /* border:3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin-left:490px;
+
+    
+}
+.skills-con label{
+  margin-left:100px;
+  margin-top: 20px;
+  font-weight: 800;
+}
+.progress-bar{
+    border:none;
+    
+    background:black;
+    width:50%;
+    align-items:center ;
+    border-radius:20px;
+    justify-content: center;
+    text-align: center;
+    margin-left:100px;
+    margin-top:10px;
+    transition: .3s;
+}
+.progress-prec-html{
+   width:80%;
+   border-radius:20px;
+   border:none;
+   background-color: var(--color-jumbo);
+}
+.progress-prec-java{
+    width:70%;
+    border-radius:20px;
+    border:none;
+    background-color: var(--color-jumbo);
+ }
+.progress-prec-javascript{
+    width:50%;
+    border-radius:20px;
+    border:none;
+    background-color: var(--color-jumbo);
+ }
+ .progress-prec-Csharp{
+    width:70%;
+    border-radius:20px;
+    border:none;
+    background-color: var(--color-jumbo);
+
+ }
+ .progress-prec-Cplus{
+    width:40%;
+    border-radius:20px;
+    border:none;
+    background-color: var(--color-jumbo);
+
+ }
+ .progress-prec-SQL{
+    width:80%;
+    border-radius:20px;
+    border:none;
+    background-color: var(--color-jumbo);
+ }
+ .progress-prec-python{
+    width:40%;
+    border-radius:20px;
+    border:none;
+    background-color: var(--color-jumbo);
+ }
+.recent-work-sec{
+    border: 3px solid orangered;
+    width:100%;
+    height:800px;
+    display: flex;
+    flex-direction: row;
+}
+
+ footer{
+     display: flex;
+     flex-direction: row;
+  
+     width:100%;
+     height:500px;
+ }
+ footer img{
+     height:25px;
+    
+ }
+/* .filter-con{
+    margin-top:500px;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.filter-con button{
+
+    width:20%;
+    border:none;
+    outline:none;
+    padding:1rem;
+    color:var(--color-jumbo);
+    font-weight:500;
+    border-radius :.75rem;
+    cursor:pointer;
+    background-color:transparent;
+    transition:.3s;
+
+}
+.filter-con button:hover{
+    background:var(--color-Nobel);
+} */
